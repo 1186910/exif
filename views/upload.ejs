@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>Upload Photo</title>
+	</head>
+
+	<body>
+		<div class='container'>
+			<h1>Upload Photo</h1><hr>
+			<form action="display" method="post" enctype="multipart/form-data"> 
+					<span  id="basic-addon1">Title</span>
+				  <input type="text" class="form-control" name="title" aria-describedby="basic-addon1" required>
+
+					<span  id="basic-addon1">description</span>
+				  <input type="text" class="form-control" name="description" aria-describedby="basic-addon1">
+				</div>
+
+
+					<span  id="inputGroupFileAddon01">Photo</span>
+
+					&emsp;<input type="file" name="filetoupload" class="form-control-file" accept="image/*">
+				  </div>
+				</div>
+				<p>
+					<input type="submit"  value="Submit">
+
+					<a href='/' >Back</a>
+				</p>
+			</form>
+
+		</div>
+	</body>
+</html>
